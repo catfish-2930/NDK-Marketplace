@@ -9,38 +9,7 @@
       "version": "0.1.0",
       "description": "ytdlp plugin",
       "type": "Multimedia",
-      "github": "https://github.com/catfish-2930/NDK-Ytdlp",
-      "enabledByDefault": true,
-      "installer": {
-        "windows": {
-          "workDir": "plugins/workspace/ytdlp",
-          "toolsDir": "plugins/installed/ytdlp/vendor/bin",
-          "tools": [
-            {
-              "id": "yt-dlp",
-              "name": "yt-dlp",
-              "url": "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe",
-              "target": "yt-dlp.exe"
-            }
-          ]
-        },
-        "linux": {
-          "workDir": "plugins/workspace/ytdlp",
-          "toolsDir": "plugins/installed/ytdlp/vendor/bin",
-          "tools": [
-            {
-              "id": "yt-dlp",
-              "name": "yt-dlp",
-              "url": "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux",
-              "target": "yt-dlp"
-            }
-          ]
-        }
-      },
-      "entryPoints": {},
-      "main": {
-        "entry": "main/index.mjs"
-      }
+      "github": "https://github.com/catfish-2930/NDK-Ytdlp"
     },
     {
       "id": "youtube-player",
@@ -48,25 +17,7 @@
       "version": "0.1.0",
       "description": "Online multimedia player",
       "type": "Multimedia",
-      "github": "https://github.com/catfish-2930/NDK-Youtube-Player",
-      "enabledByDefault": true,
-      "entryPoints": {
-        "home": {
-          "label": "YouTube",
-          "route": "/plugins/youtube-player",
-          "order": 100
-        },
-        "settings": {
-          "route": "/settings/plugins/youtube-player"
-        }
-      },
-      "renderer": {
-        "source": "renderer/YouTubePluginPage.jsx",
-        "entry": "renderer/index.js"
-      },
-      "main": {
-        "entry": "main/index.mjs"
-      }
+      "github": "https://github.com/catfish-2930/NDK-Youtube-Player"
     }
   ]
 }
