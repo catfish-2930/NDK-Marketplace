@@ -1,7 +1,7 @@
 {
   "schemaVersion": "0.1",
   "source": "local-seed",
-  "futureSource": "https://github.com/example/NDK-Marketplace",
+  "futureSource": "https://github.com/catfish-2930/NDK-Marketplace",
   "plugins": [
     {
       "id": "ytdlp",
@@ -9,7 +9,7 @@
       "version": "0.1.0",
       "description": "ytdlp plugin",
       "type": "Multimedia",
-      "github": "https://github.com/example/NDK-ytdlp",
+      "github": "https://github.com/catfish-2930/NDK-Ytdlp",
       "enabledByDefault": true,
       "installer": {
         "windows": {
@@ -48,7 +48,7 @@
       "version": "0.1.0",
       "description": "Online multimedia player",
       "type": "Multimedia",
-      "github": "https://github.com/example/NDK-YouTube-Player",
+      "github": "https://github.com/catfish-2930/NDK-Youtube-Player",
       "enabledByDefault": true,
       "entryPoints": {
         "home": {
