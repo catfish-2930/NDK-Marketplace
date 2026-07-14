@@ -18,6 +18,14 @@
       "description": "Online multimedia player",
       "type": "Multimedia",
       "github": "https://github.com/catfish-2930/NDK-Youtube-Player"
+    },
+    {
+      "id": "bilibili-player",
+      "name": "NDK-Bilibili Player",
+      "version": "0.1.0",
+      "description": "Search Bilibili videos and add them to the network playback queue.",
+      "type": "Multimedia",
+      "github": "https://github.com/catfish-2930/NDK-Bilibili-Player"
     }
   ]
 }
