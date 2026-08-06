@@ -4,24 +4,16 @@
   "futureSource": "https://github.com/catfish-2930/NDK-Marketplace",
   "plugins": [
     {
-      "id": "ytdlp",
-      "name": "NDK-yt-dlp",
-      "version": "0.1.0",
-      "description": "ytdlp plugin",
-      "type": "Multimedia",
-      "github": "https://github.com/catfish-2930/NDK-Ytdlp"
-    },
-    {
       "id": "youtube-player",
-      "name": "NDK-YouTube Player",
-      "version": "0.1.0",
-      "description": "Online multimedia player",
+      "name": "YouTube",
+      "version": "0.2.0",
+      "description": "Search YouTube and queue it for playback. Includes yt-dlp.",
       "type": "Multimedia",
       "github": "https://github.com/catfish-2930/NDK-Youtube-Player"
     },
     {
       "id": "bilibili-player",
-      "name": "NDK-Bilibili Player",
+      "name": "Bilibili",
       "version": "0.1.1",
       "description": "Search Bilibili videos and add them to the network playback queue.",
       "type": "Multimedia",
